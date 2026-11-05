@@ -1,0 +1,36 @@
+# Compiled binaries and object files
+*.o
+*.a
+*.so
+*.out
+*.exe
+a.out
+main
+
+# Build output
+build/
+cmake-build-*/
+out/
+
+# Debugger / tool output
+*.core
+core
+vgcore.*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
